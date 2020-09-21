@@ -1,16 +1,16 @@
 <?php
-function holaMundo():string {
- return " Hola Mundo con Cursosdedesarrolloweb";
+function brayan():string{
+ return " Hola brayan";
 
 }
-echo holaMundo(); 
+echo brayan(); 
 
 
-echo "<br/>";
+echo "<br/> ";
 
 
 $holaMundo = function():string{
-    return " Hola Mundo con Cursosdedesarrolloweb";
+    return " Hola Cursosdedesarrolloweb";
 };
 echo $holaMundo();
 
